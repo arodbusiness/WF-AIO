@@ -1,0 +1,202 @@
+body {
+	font-family:Helvetica;
+	background-color:#0E0C13;
+	/*background-color:#0E0C13;*/
+	color:#FFFFFF;
+	margin:auto;
+}
+div {
+	width: 100%;
+}
+p {
+	margin:0px;
+	text-align:center
+}
+table {
+	text-align:center;
+	width:100%;
+	border-collapse:collapse;
+}
+td {
+	overflow: visible !important;
+}
+table#Alert, table#Baro, table#Fissures, table#Relics, table#Mission {
+	text-align:left;
+}
+table#Alert, table#Baro, table#Events, table#Fissures, table#Invasion, table#Relics, table#Mission {
+	border: 2px solid;
+	border-color: #FFFFFF;
+	width: 99%;
+	margin:auto;
+}
+table#Alert tr:nth-child(2), table#Alert tr#TimeRow, table#Relics tr:nth-child(2), table#Fissures tr:nth-child(2), table#Fissures tr {
+	border-top: 2px solid;
+	border-color: #FFFFFF;
+}
+table#Alert tr:nth-child(1) td {
+	border: 2px solid;
+	border-color: #FFFFFF;
+	width: 100px;
+	padding: 0px;
+}
+table#Alert td, table#Baro td, table#Baro th, table#Fissures td, table#Fissures th, table#Mission td, table#Mission th {
+	border: 1px solid;
+	border-color:#FFFFFF;
+	padding: 4px;
+}
+table#Mission tr:nth-child(1) th {
+	text-align:center;
+    border-bottom: 4px solid;
+	border-color:#FFFFFF;
+}
+table#WeaponInfo {
+	text-align:left;
+	border: 3px solid;
+	border-color:#FFFFFF;
+}
+table#WeaponInfo th {
+	border-top: 3px solid;
+	border-color:#FFFFFF;
+}
+table#WeaponInfo td {
+	border: 1px solid;
+	border-color:#FFFFFF;
+    padding: 4px;
+}
+#my-div {
+	width: 310px;
+	height: 180px;
+	overflow: hidden;
+	position: relative;
+	margin: 0px auto;
+}
+#my-iframe {
+	position : absolute;
+	/*top: -815px;*/
+	/*top: -715px;*/
+	top:-650px;
+	left: -18px;
+	width: 360px;
+	height: 1200px;
+}
+#my-div2 {
+	width: 310px;
+	height: 110px;
+	overflow: hidden;
+	position: relative;
+	margin: 0px auto;
+}
+#my-iframe2 {
+	position : absolute;
+	top: -1220px;
+	left: -30px;
+	width: 369px;
+	height: 1800px;
+}
+div#MainTabButtons, div#AlertTabs, div#RelicTabs {
+	overflow: hidden;
+	border: 4px solid;
+	border-color: #2B5763;
+}
+button.maintabbutton, button.tablinks, button.tablinks2, button.tablinks3 {
+	color: #FFFFFF;
+	float: left;
+	border: none;
+	cursor: pointer;
+	padding: 2px 2px;
+	font-size: 20px;
+}
+button.maintabbutton{
+	width:25%;
+}
+button.tablinks2 {
+	width:50%;
+}
+button.tablinks3 {
+	width:33.33%;
+}
+div.maintabcontent {
+	display: none;
+	overflow-x:hidden;
+	overflow-y:auto;
+}
+div.tab {
+	overflow: hidden;
+	border: 4px solid;
+	border-color: #2B5763;
+}
+div.tab button {
+	color: #FFFFFF;
+	float: left;
+	border: none;
+	cursor: pointer;
+	padding: 2px 3px;
+	font-size: 18px;
+	width:50%;
+}
+div.tabcontent {
+	display: none;
+}
+div#Alerts, div#Missions, div#Prices, div#Rewards, div#Rivens {
+	position: absolute;
+	margin: 0px;
+}
+div#Alerts,div#Rivens, div#Prices {
+	/*top: 145px;*/
+	top: 75px;
+}
+div#Rewards {
+	/*top: 180px;*/
+	top: 110px;
+}
+div#Missions {
+	/*top: 230px;*/
+	top: 160px;
+}
+div#Prices p {
+	font-size: 16px;
+	font-weight: bold;
+}
+table.BS th, table.BS td {
+	text-align: center;
+	padding: 4px;
+}
+table.BS tr:nth-child(even) {
+	background-color: #1E1C23;
+}
+table.BS td:nth-child(1) {
+	text-align:left;
+}
+table.BS td:nth-child(4) {
+	white-space: nowrap;
+}
+img {
+	display: inline-block;
+}
+img.icon {
+	height: 18px;
+	width: auto;
+}
+img.reward {
+	width: 80px;
+	height: auto;
+}
+img.RelicReward {
+	height: 28px;
+	width: auto;
+}
+button.msg {
+	width: auto;
+	padding: 2px 2px;
+}
+div#HugeIMG{
+	Background-color: inherit;
+	display: none;
+	position: absolute;
+	left:22%;
+	z-index:1;
+}
+img#HugeIMGactual{
+	width: 260px;
+    height: auto;
+}
